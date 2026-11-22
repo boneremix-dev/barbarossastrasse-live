@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#050705">
+<title>Barbarossastraße · Chemnitz Live</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;background:#050705;color:#ffd34e;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+body{display:flex;flex-direction:column}
+header{height:34px;flex:0 0 34px;display:flex;align-items:center;justify-content:space-between;padding:0 9px;border-bottom:2px solid #70591d;font-weight:900;letter-spacing:.08em;font-size:clamp(11px,3vw,16px)}
+header .live{color:#a9e6a0;font-size:clamp(9px,2.3vw,12px)}
+main{position:relative;flex:1;min-height:0;background:#080a06}
+iframe{display:block;width:100%;height:100%;border:0;background:#080a06}
+footer{height:19px;flex:0 0 19px;border-top:1px solid #51431c;color:#b99a42;text-align:center;font-size:9px;padding:3px}
+</style>
+</head>
+<body>
+<header><span>CHEMNITZ · BARBAROSSASTRASSE</span><span class="live">● ECHTZEIT</span></header>
+<main>
+<iframe
+ title="Echtzeit-Abfahrten Barbarossastraße"
+ src="https://dbf.finalrewind.org/Chemnitz%20Barbarossastra%C3%9Fe?mode=app&amp;limit=6"
+ referrerpolicy="no-referrer"
+ loading="eager">
+</iframe>
+</main>
+<footer>ABFAHRTSPROGNOSEN · DATENQUELLE DBF · OHNE GEWÄHR</footer>
+</body>
+</html>
